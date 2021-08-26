@@ -13,8 +13,11 @@ body {
 	display: flex;
 	.contact-info {
 		display: flex;
-    .contact-item {
-      
-    }
+		.contact-item {
+			display: flex;
+			align-items: center;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
 	}
 }
