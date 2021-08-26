@@ -26,6 +26,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 <div class="site" id="page">
 
 	<!-- ******************* The Navbar Area ******************* -->
+
+	<div id="top-bar">
+		
+	</div>
+
 	<div id="wrapper-navbar">
 
 			<nav id="main-nav" class="navbar navbar-expand-lg" aria-labelledby="main-nav-label">
