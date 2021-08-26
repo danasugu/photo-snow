@@ -1,5 +1,4 @@
-// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
-@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,400;0,800;1,100;1,400&display=swap");
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega
 
 $secondary: #f3f0ec;
 $secondary-500: #d0bda5;
@@ -7,6 +6,10 @@ $secondary-500: #d0bda5;
 body {
 	color: #1a1818;
 	font-family: "Fira Sans", sans-serif;
+}
+
+h1 {
+	font-family: "Crimson Text", serif;
 }
 
 #top-bar {
