@@ -28,7 +28,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 
 	<div id="top-bar">
-		
+		<div class="contact-info">
+			<div class="phone">
+				<i class="fa fa-phone"></i>
+				+99 2 343 123 111
+			</div>
+			<div class="email">
+				<i class="fa fa-envelope-o"></i>
+				hi@email.com
+			</div>
+			<div class="search"></div>
+		</div>
 	</div>
 
 	<div id="wrapper-navbar">
