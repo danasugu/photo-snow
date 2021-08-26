@@ -10,4 +10,7 @@ body {
 #top-bar {
 	height: 50px;
 	background-color: $secondary;
+	.contact-info {
+		display: flex;
+	}
 }
