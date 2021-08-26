@@ -10,7 +10,17 @@ body {
 #top-bar {
 	height: 50px;
 	background-color: $secondary;
+	display: flex;
 	.contact-info {
 		display: flex;
+
+		.phone {
+			display: flex;
+			align-items: center;
+		}
+		.email {
+			display: flex;
+			align-items: center;
+		}
 	}
 }

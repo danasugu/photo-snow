@@ -29,11 +29,11 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div id="top-bar">
 		<div class="contact-info">
-			<div class="phone">
+			<div class="contact-item phone">
 				<i class="fa fa-phone"></i>
 				+99 2 343 123 111
 			</div>
-			<div class="email">
+			<div class="contact-item email">
 				<i class="fa fa-envelope-o"></i>
 				hi@email.com
 			</div>
