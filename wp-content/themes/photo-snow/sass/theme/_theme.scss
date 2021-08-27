@@ -57,6 +57,7 @@ h1 {
 		align-items: center;
 		padding-left: 1em;
 		padding-right: 1em;
+		text-transform: uppercase;
 		@media (max-width: $xl) {
 			flex: 1;
 			justify-content: flex-end;
