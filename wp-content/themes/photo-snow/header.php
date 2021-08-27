@@ -44,9 +44,13 @@ $container = get_theme_mod( 'understrap_container_type' );
 				hi@email.com
 			</div>
 			<div class="contact-item search">
-					<i class="fa fa-search"></i>
+				<i class="fa fa-search"></i>
 				<input type="text" placeholder="Search...">
 			</div>
+		</div>
+		<div class="shipping-info">
+			<i class="fa fa-truck"></i>
+			Free shipping on orders over $100
 		</div>
 	</div>
 
