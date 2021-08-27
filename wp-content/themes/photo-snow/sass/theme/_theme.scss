@@ -2,6 +2,7 @@
 
 $secondary: #f3f0ec;
 $secondary-500: #d0bda5;
+$xl: 1500px;
 
 body {
 	color: #1a1818;
@@ -19,6 +20,9 @@ h1 {
 	.contact-info {
 		display: flex;
 		flex: 1;
+		@media (max-width: $xl) {
+			flex: initial;
+		}
 		.contact-item {
 			display: flex;
 			align-items: center;
@@ -41,6 +45,9 @@ h1 {
 		align-items: center;
 		padding-left: 1em;
 		padding-right: 1em;
+		@media (max-width: $xl) {
+			flex: initial;
+		}
 		.fa {
 			margin-right: 0.5em;
 		}
@@ -50,6 +57,10 @@ h1 {
 		align-items: center;
 		padding-left: 1em;
 		padding-right: 1em;
+		@media (max-width: $xl) {
+			flex: 1;
+			justify-content: flex-end;
+		}
 		.fa {
 			margin-left: 0.5em;
 		}
