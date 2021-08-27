@@ -53,7 +53,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 			Free shipping on orders over $100
 		</div>
 		<div class="login-register">
-			login / register
+			Login / Register
 			<i class="fa fa-user-circle"></i>
 		</div>
 	</div>
