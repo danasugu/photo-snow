@@ -56,6 +56,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			Login / Register
 			<i class="fa fa-user-circle"></i>
 		</div>
+		<div class="mobile-menu">
+			Menu
+			<i class="fa fa-bars"></i>
+		</div>
 	</div>
 
 	<div id="wrapper-navbar">
