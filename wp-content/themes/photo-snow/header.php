@@ -52,6 +52,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 			<i class="fa fa-truck"></i>
 			Free shipping on orders over $100
 		</div>
+		<div class="login-register">
+			login / register
+			<i class="fa fa-user-circle"></i>
+		</div>
 	</div>
 
 	<div id="wrapper-navbar">

@@ -18,6 +18,7 @@ h1 {
 	display: flex;
 	.contact-info {
 		display: flex;
+		flex: 1;
 		.contact-item {
 			display: flex;
 			align-items: center;
@@ -36,11 +37,21 @@ h1 {
 	}
 	.shipping-info {
 		display: flex;
+		flex: 1;
 		align-items: center;
 		padding-left: 1em;
 		padding-right: 1em;
 		.fa {
 			margin-right: 0.5em;
+		}
+	}
+	.login-register {
+		display: flex;
+		align-items: center;
+		padding-left: 1em;
+		padding-right: 1em;
+		.fa {
+			margin-left: 0.5em;
 		}
 	}
 }
