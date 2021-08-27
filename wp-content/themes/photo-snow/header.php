@@ -43,7 +43,10 @@ $container = get_theme_mod( 'understrap_container_type' );
 				<i class="fa fa-envelope-o"></i>
 				hi@email.com
 			</div>
-			<div class="search"></div>
+			<div class="contact-item search">
+					<i class="fa fa-search"></i>
+				<input type="text" placeholder="Search...">
+			</div>
 		</div>
 	</div>
 
