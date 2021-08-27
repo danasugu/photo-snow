@@ -63,6 +63,7 @@ h1 {
 		align-items: center;
 		padding-left: 1em;
 		padding-right: 1em;
+		justify-content: flex-end;
 		text-transform: uppercase;
 		@media (max-width: $md) {
 			display: flex;
