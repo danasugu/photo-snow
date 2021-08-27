@@ -30,6 +30,12 @@ h1 {
 			align-items: center;
 			padding-left: 1em;
 			padding-right: 1em;
+			&.phone,
+			&.email {
+				@media (max-width: $md) {
+					display: none;
+				}
+			}
 			.fa {
 				margin-right: 0.5em;
 			}
