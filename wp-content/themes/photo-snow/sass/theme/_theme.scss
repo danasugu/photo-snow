@@ -85,12 +85,12 @@ h1 {
 		padding-left: 1em;
 		padding-right: 1em;
 		text-transform: uppercase;
-		@media (max-width: $xl) {
+		@media (max-width: $md) {
 			flex: 1;
 			justify-content: flex-end;
 		}
 		@media (max-width: $md) {
-			display: none;
+			display: flex;
 		}
 		.fa {
 			margin-left: 0.5em;
