@@ -80,15 +80,11 @@ h1 {
 		}
 	}
 	.login-register-mobile {
-		display: flex;
+		display: none;
 		align-items: center;
 		padding-left: 1em;
 		padding-right: 1em;
 		text-transform: uppercase;
-		@media (max-width: $md) {
-			flex: 1;
-			justify-content: flex-end;
-		}
 		@media (max-width: $md) {
 			display: flex;
 		}
