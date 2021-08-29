@@ -35,8 +35,8 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 	<div id="top-bar">
 		<div class="login-register-mobile">
+			<i class="fa fa-user-circle"></i>	
 			Login
-			<i class="fa fa-user-circle"></i>
 		</div>
 		<div class="contact-info">
 			<div class="contact-item phone">
